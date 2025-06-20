@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+
+# Django Secrets & Migrations
+*.sqlite3
+*.log
+db.sqlite3
+/media/
+*.pyc
+*.pyo
+*.env
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Django settings (if storing secrets in .env)
+.env
